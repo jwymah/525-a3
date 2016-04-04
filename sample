@@ -1,0 +1,3 @@
+echo "This is message body" | mail -s "This is Subject" -r "Harry<harry@gmail.com>" someone@example.com
+
+cat mailheader indecentAct.html | sendmail -t
