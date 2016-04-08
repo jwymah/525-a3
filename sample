@@ -2,6 +2,7 @@ echo "This is message body" | mail -s "This is Subject" -r "Harry<harry@gmail.co
 
 cat mailheader indecentAct.html | sendmail -t
 
+cat headers/facebookrequest | sed -e 's/jeremyw.mah@gmail.com/jwymah@ucalgary.ca/'
 
 bgyee@ucalgary.ca
 bzpetras@ucalgary.ca
