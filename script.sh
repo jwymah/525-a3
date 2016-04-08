@@ -86,4 +86,4 @@ then
 fi
 
 cat templates/$TEMPLATE | sed -e "s/jeremyw.mah@gmail.com/$TO/" | sed -e "s/jwymah@ucalgary.ca/$TO/" > spamEmail.html
-spamEmail.html has been created
+echo "spamEmail.html has been created"
